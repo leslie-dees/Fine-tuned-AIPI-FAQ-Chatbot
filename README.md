@@ -11,4 +11,5 @@
     * Host data in vector db (Pinecone?)
 * Build RAG pipeline using fine-tuned model and AIPI data
     * Frontend display
-* Model hosting
+    * Look into Corrective RAG implementation
+* Model hosting & deployment
