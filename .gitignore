@@ -1,0 +1,4 @@
+*__pycache__
+finetune/adapters
+finetune/wandb
+finetune/data

@@ -13,3 +13,7 @@
     * Frontend display
     * Look into Corrective RAG implementation
 * Model hosting & deployment
+
+## Finetuning
+
+The finetuning pipeline is available in [`./finetune`](./finetune/)

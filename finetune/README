@@ -1,0 +1,63 @@
+## Chatbot Finetuning Pipeline
+
+This pipeline is used to finetune [`Mistral-7B-v0.1`](https://huggingface.co/mistralai/Mistral-7B-v0.1) on the [`databricks/databricks-dolly-15k`](https://huggingface.co/datasets/databricks/databricks-dolly-15k) dataset
+
+## Environment Config
+
+**Install**
+
+```
+$ sudo apt-get install python3-venv
+$ python3 -m venv ~/.venv
+$ source ~/.venv/bin/activate
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
+```
+
+**Enable Flash Attention**
+
+```
+!MAX_JOBS=4 pip install flash-attn --no-build-isolation
+```
+
+**WandB Login**
+```
+# Create account at https://wandb.ai/ > Init new project > Copy API key
+$ wandb login # paste API key
+```
+
+**HuggingFace Hub Login**
+```
+# Create a HF Access Token with Write permissions > Copy Token
+$ huggingface-cli login # paste token
+```
+
+## Finetuning w/ PEFT QLoRA
+
+```
+# Activate environment
+$ source ~/.venv/bin/activate
+```
+
+### 1. QLoRA Config
+
+Configure model and runtime parameters in [config-defaults.yaml](config-defaults.yaml) 
+
+### 2. Build Prompts
+
+Build training/validation prompt sets from `databricks/databricks-dolly-15k`
+
+```
+$ python3 prompts.py --num <num_prompts>
+```
+
+### 3. Run Finetuning
+
+```
+# Gotchas: Manage CUDA memory
+$ rm -rf ../.cache/huggingface/datasets
+
+# Run finetuning
+$ python3 finetune.py --project <wandb_project_name>
+# i.e. python3 finetune.py --project mistral-bot
+```
