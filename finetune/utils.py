@@ -76,4 +76,19 @@ def build_prompts(dataset_id, num):
     split_prompts['train'].to_json("data/train_prompts.json", orient="records")
     split_prompts['test'].to_json("data/test_prompts.json", orient="records")
     print("train/test prompts saved to ./data")
-    
+  
+def get_preds(test_prompts, pipe):
+    preds = []
+    for sample in tqdm(test_prompts.select(range(test_prompts.num_rows))):
+      prompt = pipe.tokenizer.apply_chat_template(sample["messages"][:2], tokenize=False, add_generation_prompt=True)
+      outputs = pipe(prompt, max_new_tokens=256, eos_token_id=pipe.tokenizer.eos_token_id, pad_token_id=pipe.tokenizer.pad_token_id)
+      sample_pred = outputs[0]['generated_text'][len(prompt):].strip()
+      preds.append(sample_pred)
+    return preds
+
+def get_labels(test_prompts):
+    labels = []
+    for sample in tqdm(test_prompts.select(range(test_prompts.num_rows))):
+      sample_label = sample["messages"][2]["content"]
+      labels.append(sample_label)
+    return labels

@@ -10,7 +10,7 @@ from trl import setup_chat_format, SFTTrainer
 from datasets import load_dataset, disable_caching
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments, pipeline
 
-from utils import init_wandb, build_prompts
+from utils import init_wandb
 
 warnings.filterwarnings("ignore")
 
@@ -130,7 +130,7 @@ def main():
     # Push adapter to HF Hub
     if wandb.config.push_adapter_to_hub:
         trainer.push_to_hub()
-        print(f"Adapter pushed to HF Hub {wandb.config.hub_id}")
+        print(f"Adapter pushed to HF Hub {args.project}")
 
     # Free CUDA memory
     del model
