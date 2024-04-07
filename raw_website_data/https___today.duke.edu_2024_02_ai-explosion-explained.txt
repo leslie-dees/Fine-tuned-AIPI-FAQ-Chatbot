@@ -1,0 +1,348 @@
+
+
+The AI Explosion, Explained | Duke Today
+
+Skip to main content
+
+Sections
+
+Sections
+
+Arts & Humanities
+
+Business & Economics
+
+Campus & Community
+
+Environment & Sustainability
+
+Global
+
+Health & Medicine
+
+Science & Technology
+
+Working@Duke
+
+More News & Info
+
+Athletics
+
+Books
+
+COVID Response
+
+Media & Opinion
+
+Research & Innovation
+
+Series
+
+Close
+
+Back
+
+Trending
+
+Watch
+
+Search
+
+Search
+
+Open Menu
+
+Main navigation
+
+Sections
+
+Sections
+
+Arts & Humanities
+
+Business & Economics
+
+Campus & Community
+
+Environment & Sustainability
+
+Global
+
+Health & Medicine
+
+Science & Technology
+
+Working@Duke
+
+More News & Info
+
+Athletics
+
+Books
+
+COVID Response
+
+Media & Opinion
+
+Research & Innovation
+
+Series
+
+Close
+
+Back
+
+Trending
+
+Watch
+
+Socials
+
+Facebook
+
+Instagram
+
+Twitter
+
+YouTube
+
+Footer
+
+Campus Communications
+
+Contact Us
+
+For the Media
+
+Close
+
+The AI Explosion, Explained
+
+The field of AI has been around for decades. So why is it suddenly everywhere, and what lies ahead?
+
+Image
+
+Duke's Larry Carin, Lee Tiedrich and Matt Hirschey discussed what the future holds for AI Jan. 30 at the 2024 Duke Centennial Research & Innovation Week.
+
+Caption Duke's Larry Carin, Lee Tiedrich and Matt Hirschey discussed what the future holds for AI Jan. 30 at the 2024 Duke Centennial Research & Innovation Week.
+
+Close
+
+Image
+
+Duke's Larry Carin, Lee Tiedrich and Matt Hirschey discussed what the future holds for AI Jan. 30 at the 2024 Duke Centennial Research & Innovation Week.
+
+Published
+
+February 8, 2024
+
+All Meta
+
+Credits
+
+RA Smith
+
+science writer
+
+Tags
+
+Artificial Intelligence
+
+Schools
+
+Pratt School of Engineering
+
+School of Law
+
+School of Medicine
+
+Scholars
+
+Lee J Tiedrich
+
+Executive in Residence in the Pratt School of Engineering
+
+Distinguished Faculty Fellow in Law & Responsible Technology in the Duke Initiative for Science & Society
+
+View Scholars@Duke Profile
+
+Matthew
+
+Hirschey
+
+Associate Professor of Medicine
+
+Associate Professor in Pharmacology and Cancer Biology
+
+Associate Professor of Cell Biology
+
+Member of Sarah W. Stedman Nutrition and Metabolism Center
+
+Member of the Duke Cancer Institute
+
+View Scholars@Duke Profile
+
+Lawrence
+
+Carin
+
+Professor of Electrical and Computer Engineering
+
+Professor of Computer Science
+
+View Scholars@Duke Profile
+
+On a January afternoon in a sunlit room in Penn Pavilion, some three dozen people gathered for a glimpse of what’s new with some of today’s generative AI tools, and what could be waiting on the horizon.
+
+At the front of the room, Duke professor Matt Hirschey navigated to Bing.com, where Microsoft has incorporated chatbot technology into its new AI-powered search engine.
+
+Go ahead, the site said. Ask it to draft an email about diversity and inclusion on campus, come up with a funny joke for your colleagues, or create a worksheet for 11th graders studying the Civil War.
+
+“This is Microsoft’s take on what AI can do to make your life easier,” Hirschey said.
+
+Another tool he tried worked like ChatGPT for PowerPoint, proclaiming: “Welcome to a new way of creating presentations.”
+
+“Of course, this new way is you sipping your coffee while the AI makes the presentation for you,” Hirschey said.
+
+He showed off the resulting slide deck, noting that some might find the headers a little generic. “But we'll give it a break. This is literally a presentation that was made at the click of a button.”
+
+Panel moderator Daniel Dardani
+
+The demo was part of an AI-themed panel at Duke Research & Innovation Week 2024 , held Jan. 29 to Feb. 2 as part of the Duke Centennial celebration.
+
+What we now call AI has been around as a discipline for decades, said moderator and tech transfer expert Daniel Dardani of Duke's Office for Translation and Commercialization and the Office of External Partnerships.
+
+But AI tools like ChatGPT have pushed the technology into public view.
+
+Which raises an obvious question, Dardani said. “What’s different about AI today, and what could come next?”
+
+This isn’t the first time AI has captured the public imagination, said AI and machine learning expert Larry Carin , former chair of electrical and computer engineering and former Vice Provost for Research at Duke.
+
+Over its history, the field has gone through repeated cycles of booms and busts -- periods of remarkable progress and optimism followed by skepticism.
+
+These cycles are known as the “seasons of AI,” Carin said, and “we’re definitely experiencing an AI summer.”
+
+But this moment seems different, Carin added. It’s not just another bubble of inflated expectations. “We’re in a different phase,” Carin said.
+
+Larry Carin , Ph.D., former chair of electrical and computer engineering and former Vice Provost for Research at Duke. York Wilson Photography.
+
+“Most of the focus right now in AI is really on productivity,” said Hirschey, a professor of medicine who also directs Duke’s Center for Computational Thinking .
+
+Imagine a harried physician. In a regular week, many doctors spend nearly half their time entering data and doing deskwork. AI-powered voice assistants that integrate with patients’ electronic health records could make charting easier so that doctors can focus more on patient care.
+
+Or take any office job. Increasingly, companies are integrating “ AI assistants ” into office apps like Word, Gmail or Excel. These AIs could save users time by automating or offloading tedious tasks such as scheduling meetings or managing email.
+
+“There's something deep about human nature that is looking not for shortcuts, but we’ll say for ‘productivity enhancement opportunities,’” Hirschey said.
+
+And indeed the potential gains are impressive. According to the accounting and auditing firm PricewaterhouseCoopers, the boost in productivity enabled by AI could add $6.6 trillion to the global economy by 2030. That’s more than the GDPs of Canada and the U.K. combined.
+
+“So it's not surprising that it starts here,” Hirschey said. “But I think the most exciting prospect is beyond productivity.”
+
+In education, for example, AI chatbots could serve as students’ personal tutors, clarifying and reviewing concepts based on content from a syllabus or textbook.
+
+Hirshey asked one such bot to “teach me the fundamentals of large language models from an undergrad level,” and the AI came back with an answer almost instantly.
+
+“This is a new way to interact with course material,” Hirschey said.
+
+Such tools aren’t perfect. When he asked the AI tutor for clarification, typing in “I don’t quite understand,” the chatbot choked. It came back with “error analyzing.”
+
+“That just shows you it's a real demo,” he chuckled.
+
+In another demo, Hirschey showed off a custom chatbot he created called “Ghost Scientist.”
+
+It differs from regular ChatGPT in that it was programmed for a specific task, in this case to suggest experiments that could be carried out. After asking the audience to call out fields they were working in, he chose two answers at random and typed: “how would I use light microscopy to study ion channels?”
+
+In an instant the AI came back with a list of ideas, ranked based on feasibility.
+
+Some experts might skim this list and say, “that's totally bogus, or that's not going to work,” Hirschey said. But the point is “we can also build tools that help us come up with ideas,” Hirschey said. “We can use AI to help brainstorm.”
+
+“Right now everyone is thinking about AI as a task completer,” Hirschey said. “But really we should be thinking about AI as an educator, an idea generator, or even as a thought partner.”
+
+AI legal policy expert and Duke executive in residence Lee Tiedrich, J.D. York Wilson Photgraphy.
+
+If you had told an AI-savvy audience even five years ago that such things would soon be possible, Carin said, “I think everybody would have just laughed. No chance.”
+
+To tech insiders, Carin said, “This is unbelievable technology. It is a tremendous accomplishment of sustained research over many decades.”
+
+“But now we have new questions,” Carin added. “Such as: who owns this?”
+
+Tech giants like Google and Microsoft are facing a barrage of lawsuits alleging that scraping data from the web to train their AI systems violates people’s privacy or property rights.
+
+“I've never seen the technology evolve so much quicker than the law,” said Duke alum Lee Tiedrich , who practiced law for 30 years at the forefront of AI and other emerging technologies before returning to Duke as an executive in residence at Pratt.
+
+“Even the patent office and copyright officers are struggling with the implications of AI on traditional intellectual property bedrock concepts,” Dardani said.
+
+“There seems to be some consensus across the aisles that big tech needs to be reined in,” Tiedrich added. Just a few months ago the White House unveiled a sweeping executive order on artificial intelligence, joining a number of countries around the world in calling for stronger guardrails around AI.
+
+“It’s still the Wild West, but policymakers are trying very hard to tame it,” Tiedrich said. The goal is to “capitalize on all the great benefits that artificial intelligence brings, but also make sure that we mitigate the risks.”
+
+One of the clearest lessons from the panel was that we've only just begun to see what's possible with AI.
+
+“It's early,” Hirschey said. “We still don't know exactly how these tools work, what their limitations are, or the full implications of their use.”
+
+Looking ahead, however, AI agents could be embedded inside every app we use. One study suggests that a third of college students are already using ChatGPT for schoolwork.
+
+“There's no question that it’s going to be used,” Carin said.
+
+Dardani brought the discussion to a close with one final quip: “If there’s any portion of today that you forget and want to double back on, don’t worry -- just ask ChatGPT.”
+
+Q&A following the panel "AI: Glimpse of the Future". York Wilson Photography.
+
+Recent Stories
+
+January 30, 2024
+
+A Marriage of AI and Photonics to Advance Imaging, Health Care and Public Safety
+
+Read on
+
+Pratt School of Engineering
+
+Sociologist Christopher Bail built an AI chatbot that moderates online political conversations.
+
+October 24, 2023
+
+Bridging Political Divides With Artificial Intelligence
+
+Read
+
+September 12, 2023
+
+New Center for Precision Health Aims to Transform Population Health, Patient Care
+
+Read on
+
+Duke Clinical and Translational Science Institute
+
+Editor's Pick
+
+March 11, 2024
+
+‘Behind the Mask’ Stories of the Duke Blue Devil
+
+Read on
+
+University Communications and Marketing
+
+Socials
+
+Facebook
+
+Instagram
+
+Twitter
+
+YouTube
+
+Footer
+
+Campus Communications
+
+Contact Us
+
+For the Media
+
+Duke Today is produced jointly by University Communications and Marketing and the Office of Communication Services (OCS). Articles are produced by staff and faculty across the university and health system to comprise a one-stop-shop for news from around Duke. Geoffrey Mock of University Communications is the editor of the 'News' edition. Leanora Minai of OCS is the editor of the 'Working@Duke' edition. We welcome your comments and suggestions!
+
+© Copyright 2024 Duke University. All rights reserved.
+

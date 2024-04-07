@@ -1,0 +1,360 @@
+
+
+Inaugural Generative AI Hackathon Launches Imaginations | Duke Pratt School of Engineering
+
+Apply
+
+Menu
+
+Who We Are
+
+Our Story
+
+Our Story
+
+Dean’s Welcome
+
+History
+
+Thinking BIG: Pratt 2039
+
+Diversity, Equity, Inclusion & Community
+
+Our Team
+
+Dean’s Office Staff
+
+Board of Visitors
+
+Full Directory
+
+Careers at Pratt
+
+Visit Us
+
+Awards & Recognition
+
+External Faculty Awards
+
+NAE Members
+
+Pratt School of Engineering Awards
+
+Admissions
+
+Undergraduate
+
+Undergraduate Admissions
+
+First-Year Design
+
+Undergraduate Student Outcomes
+
+Master's
+
+Master’s Admissions
+
+Master’s Student Outcomes
+
+PhD
+
+PhD Admissions
+
+PhD Student Outcomes
+
+Financial Support
+
+Admitted Students
+
+International Students
+
+Campus Tours
+
+Academics
+
+Departments
+
+Biomedical Engineering
+
+Civil & Environmental Engineering
+
+Electrical & Computer Engineering
+
+Mechanical Engineering & Materials Science
+
+Institute for Enterprise Engineering
+
+Faculty
+
+Undergraduate
+
+Undergraduate Experience
+
+General Degree Requirements
+
+Majors & Minors
+
+4+1: Bachelors & Masters Program
+
+Your First Year
+
+Student Entrepreneurship
+
+Undergraduate Research
+
+Master's
+
+Master’s Experience
+
+Master’s Degrees
+
+PhD
+
+Certificates
+
+Life at Pratt
+
+Life at Pratt
+
+Organizations & Clubs
+
+Life in Durham
+
+Student Resources
+
+Undergraduate Student Resources
+
+Graduate Student Resources
+
+Advising
+
+Internships & Career Services
+
+PhD Plus Professional Development Program
+
+Policies & Procedures
+
+Research & Impact
+
+Pre-Research Support
+
+High-Impact Research
+
+Signature Research Areas
+
+Recent External Funding Awards
+
+Centers & Institutes
+
+Translation
+
+Signature Discoveries
+
+Entrepreneurship
+
+Outreach & Service
+
+News & Events
+
+News
+
+Media Coverage
+
+Media Hits
+
+Media Relations
+
+Publications
+
+Magazines
+
+Email Newsletters
+
+Rate of Change Podcast
+
+Events
+
+All Events
+
+Commencement
+
+National Engineers Week
+
+Search
+
+Submit
+
+Alumni & Parents
+
+Alumni
+
+Parents
+
+Giving
+
+Industry
+
+Industry Engagement
+
+Student Engagement
+
+Affiliates Program
+
+Give
+
+Directory
+
+Apply
+
+Inaugural Generative AI Hackathon Launches Imaginations
+
+12/19
+
+Pratt School of Engineering
+
+Duke Engineering’s inaugural generative AI Hackathon brings student collaboration, creativity and innovation to the latest technical tools
+
+SHARE
+
+Twitter/X Logo
+
+LinkedIn Logo
+
+Facebook Logo
+
+Inaugural Generative AI Hackathon Launches Imaginations
+
+One of 2023’s greatest enduring legacies will undoubtedly be the explosion of generative AI platforms and technologies like ChatGPT.
+
+From conducting simple conversations to helping code entire websites, the potential uses for generative AI are just starting to be explored. As is always the case with emerging technologies, there’s no shortage of curious college students eager to tinker and experiment with it to discover new uses that haven’t yet been dreamed of.
+
+To encourage this innovative spirit and help students get their feet wet with generative AI, Duke Engineering recently hosted its inaugural Generative Artificial Intelligence (GenAI) Hackathon.
+
+Hackathons are typically weekend-long events in which participants creatively, collaboratively and quickly use technology to build ideas into demonstrations, or “demos,” showcased at the end of the event.
+
+“There is tremendous interest among our students in AI, and particularly Generative AI, and we wanted to create an opportunity for them to get hands-on with the technology and build something meaningful within a supportive, fun environment,” said Jon Reifschneider , executive director of Duke’s Master of Engineering in Artificial Intelligence . “The quality and variety of the hacks that were developed was inspiring. We saw tremendous creativity in how the technology could be used across a wide range of application areas.”
+
+The GenAI Hackathon drew 148 students to campus, representing a wide range of majors from Duke, Elon University and North Carolina State University, for a 42-hour, caffeine-fueled imagination and creation event. Teams worked to generate ideas, form teams and develop prototypes from 6:00 pm on a Friday through 9:00 am on a Sunday.
+
+The quality and variety of the hacks that were developed was inspiring. We saw tremendous creativity in how the technology could be used across a wide range of application areas.
+
+Jon Reifschneider
+
+Executive Director, Duke Master of Engineering in AI for Product Innovation
+
+Twitter/X Logo
+
+LinkedIn Logo
+
+The event was organized by an enthusiastic group of students organized by Reifschneider along with Vivek Rao , executive director of Duke Engineering’s new Design & Technology Innovation Master of Engineering .
+
+The group also received support from global AI leaders OpenAI and Microsoft in the form of generous AI compute credits for hackathon participants and larger amounts as prizes for the top teams.
+
+This allowed participants in the Hackathon to engage with, for example, OpenAI’s GPT-4 API, which would typically be difficult for students to access. The organizers also led a series of technical tutorials and hosted office hours throughout the weekend to help students build and code their ideas.
+
+“The Hackathon was special as it gave me access to use the latest AI tools, at no cost, in a creative way for a special learning and building experience,” said Devin Shah , a senior in biomedical engineering.
+
+Leaders of the GenAI Hackathon go over some basic information about the underlying technology before the hacking begins.
+
+When dreaming up potential projects to pursue, however, the competition’s prompt wasn’t simply open-ended. Teams were encouraged to come up with uses for generative AI that would serve some sort of social or community service—a directive that students and sponsors alike could get behind.
+
+“Encouraging the next generation to engage with AI technology in a hands-on way aligns perfectly with OpenAI’s mission to ensure AI benefits all of humanity,” said Shyamal Anadkat , a 2022 graduate of Duke’s AI Master of Engineering program, who is now an applied AI leader at OpenAI and supporter of the Hackathon.
+
+“Events like the GenAI Hackathon really take what we learn in the classroom and push us to translate that into experiences and events for the community,” added Archit Kaila , a student in the AI Master of Engineering program and one of the event’s organizers. “That’s something really special about being at Duke.”
+
+Nearly 150 students from colleges across North Carolina showed up to the inaugural GenAI Hackathon.
+
+During the Hackathon, participants formed interdisciplinary teams to develop projects in one of five tracks:
+
+Health & Wellness
+
+Education & Knowledge Management
+
+Enterprise & Finance, Entertainment
+
+Arts & Travel, and Social Impact
+
+Sustainability & Environment
+
+The result was 32 completed projects by the end of the weekend. Eight judges, representing Duke faculty and alumni, worked in pairs to systematically evaluate them all and name finalists for each track. The work was presented to the entire audience.
+
+“I was blown away by the creativity and execution behind all of the projects I saw,” said Andy Chan , GenAI Hackathon judge, Fuqua School of Business MBA graduate, and CEO and founder of ScriptScouts , a technology startup focusing on the pharmaceuticals space. “I love that while AI technology keeps advancing, students keep learning and building, and the hackathon really shows that.”
+
+The range and depth of demo-ready projects that emerged really highlights the students’ eagerness to work with the latest technologies to address problems that matter.
+
+Vivek Rao
+
+Executive Director, Duke Master of Engineering in Design & Technology Innovation
+
+LinkedIn Logo
+
+At the end of the competition, the judges ultimately selected BunnyBotBeacon, a robotic plush bunny rabbit that functioned as a speaking and listening mental health chatbot. The project was built by Annabelle Chu, a Duke senior majoring in electrical and computer engineering , who wowed the judges with her project’s unique blend of hardware, software and focus on a meaningful problem.
+
+Annabelle Chu, Duke senior in electrical and computer engineering, hacks into her winning entry “BunnyBotBeacon, a robotic plush bunny rabbit that functioned as a speaking and listening mental health chatbot.
+
+“At this hackathon, I really enjoyed bringing together all the skills I’ve learned at Duke, covering everything from coding and circuit design to CAD and 3D printing, into one big project,” Chu said. “When the BunnyBot was finally up and running, it was really rewarding to see all the different aspects work together to address the challenge of mental health using Generative AI.”
+
+As part of the winning prize, Chu received automatic entry into Microsoft’s Imagine Cup, for which she’s assembling a team to take BunnyBotBeacon forward, and recently met with Duke Capital Partners , the venture capital fund supporting high-impact startups emerging from the Duke ecosystem.
+
+Also leaving the event with a prize was Jiechen Li, a student in Duke’s Masters of Interdisciplinary Data Science (MIDS) program , whose team won the beginner track for their work on their project, “TalkwithMe.” Li was invited to share her project with Microsoft’s Azure Educator Developer Blog , a home for novel work in product development related to Artificial Intelligence.
+
+“Before coming to Duke, I was a product analyst for many years,” Li said. “I knew how to analyze products and understand their market potential, but I didn’t have the technical tools to prototype them, especially products using the latest artificial intelligence technology.”
+
+“The range and depth of demo-ready projects that emerged really highlights the students’ eagerness to work with the latest technologies to address problems that matter,” said Rao, who is already looking forward to organizing the next iteration of the event. “I’m really excited to see what our Hackathon students build next.”
+
+The Future of AI at Duke
+
+Duke is developing the innovative leaders needed to ethically harness the power of artficial intelligence and machine learning.
+
+Study AI & Machine Learning
+
+Study Design & Innovation
+
+Related News
+
+11/13 Pratt School of Engineering
+
+Duke’s CREATE Center Joins the AI Revolution in Education
+
+The new Center for Research & Engineering of AI Technology in Education seeks to benefit both educators and learners at Duke and beyond
+
+10/17 I/O Magazine
+
+Adapting to AI in the Classroom
+
+How Duke Engineering faculty are working to effectively—and thoughtfully—use generative AI tools.
+
+12/5 Pratt School of Engineering
+
+Preparing Students for the Design and Technology Innovation Roles of Tomorrow
+
+Duke launches a new Master of Engineering in Design and Technology Innovation
+
+Duke Pratt School of Engineering Logo
+
+305 Teer Engineering Bldg Box 90271 Durham, NC 27708
+
+(919) 660-5386
+
+Duke Engineering Now Newsletter
+
+Email
+
+Visit
+
+Contact Us
+
+Emergency Information
+
+Pratt Intranet
+
+Engineering Faculty Council
+
+Faculty Governance
+
+Report a Web Problem
+
+© Copyright
+
+— All Rights Reserved
+
