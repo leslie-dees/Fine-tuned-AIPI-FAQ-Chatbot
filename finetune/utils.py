@@ -1,13 +1,10 @@
 import os
 import wandb
-import torch
+import ollama
 import numpy as np
 from tqdm import tqdm
 from datetime import datetime
-import matplotlib.pyplot as plt
 from pytorch_lightning.loggers import WandbLogger
-from sklearn.preprocessing import label_binarize
-from sklearn.metrics import roc_curve, auc, recall_score, precision_score, f1_score, accuracy_score
 
 from datasets import load_dataset
 
@@ -81,7 +78,7 @@ def get_preds(test_prompts, pipe):
     preds = []
     for sample in tqdm(test_prompts.select(range(test_prompts.num_rows))):
       prompt = pipe.tokenizer.apply_chat_template(sample["messages"][:2], tokenize=False, add_generation_prompt=True)
-      outputs = pipe(prompt, max_new_tokens=256, eos_token_id=pipe.tokenizer.eos_token_id, pad_token_id=pipe.tokenizer.pad_token_id)
+      outputs = pipe(prompt, max_new_tokens=256, temperature=0.1, top_p=0.1, eos_token_id=pipe.tokenizer.eos_token_id, pad_token_id=pipe.tokenizer.pad_token_id)
       sample_pred = outputs[0]['generated_text'][len(prompt):].strip()
       preds.append(sample_pred)
     return preds
@@ -92,3 +89,29 @@ def get_labels(test_prompts):
       sample_label = sample["messages"][2]["content"]
       labels.append(sample_label)
     return labels
+
+def evaluate(preds, targets):
+  eval_prompt = """
+  Given Answer A and Answer B, decide if they are similar or different. 
+  Your must strictly give a single word response, either 'similar' or 'different'.
+  Do not provide any additional justification.
+
+  Answer A: {answer_a}
+  
+  Answer B: {answer_b}
+  """
+  responses = []
+  for ids, (pred, target) in enumerate(zip(preds,targets)):
+    prompt = eval_prompt.format(answer_a=pred, answer_b=target)
+    message = ollama.generate(model='llama2', prompt=prompt)
+    response = message['response'].lower().strip()
+    print(response)
+    if 'similar' in response:
+      responses.append("similar")
+    elif 'different' in response:
+      responses.append("different")
+    else:
+      responses.append("n/a")
+  
+  return responses
+    
