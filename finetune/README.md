@@ -68,7 +68,9 @@ $ python3 finetune.py --project <wandb_project_name>
 # i.e. python3 finetune.py --project mistral-bot
 ```
 
-After finetuning, to merge the adapter with the base model, run the [`merge.py`](./merge.py) script passing the HuggingFace adapter ID
+After finetuning, to merge the adapter with the base model, run the [`merge.py`](./merge.py) script passing the HuggingFace adapter ID.
+
+WARNING: Merge requires > 16GB memory
 
 ```
 $ python3 merge.py --id <adapter_id>
