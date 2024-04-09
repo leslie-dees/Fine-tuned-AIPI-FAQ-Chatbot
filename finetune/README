@@ -67,3 +67,18 @@ $ rm -rf ../.cache/huggingface/datasets
 $ python3 finetune.py --project <wandb_project_name>
 # i.e. python3 finetune.py --project mistral-bot
 ```
+
+After finetuning, to merge the adapter with the base model, run the [`merge.py`](./merge.py) script passing the HuggingFace adapter ID
+
+```
+$ python3 merge.py --id <adapter_id>
+# i.e. python3 merge.py --id kahliahogg/mistral-bot
+```
+
+### 4. Inference
+
+An inference playground is available in the [`inference.ipynb`](./inference.ipynb) notebook
+
+### 5. Evaluation
+
+Evaluation is performed using an LLM-as-judge in the [`eval.ipynb`](./eval.ipynb) notebook

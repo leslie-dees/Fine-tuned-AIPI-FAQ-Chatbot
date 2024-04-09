@@ -90,14 +90,12 @@ def main():
         optim="adamw_bnb_8bit",                         # use adamw_bnb_8bit optimizer
         logging_steps=10,                               # log every 10 steps
         save_strategy="epoch",                          # save checkpoint every epoch
-        # evaluation_strategy="epoch",                  # save checkpoint every epoch
         learning_rate=wandb.config.lr,                  # learning rate, based on QLoRA paper
         bf16=True,                                      # use bfloat16 precision
         max_grad_norm=0.3,                              # max gradient norm based on QLoRA paper
         warmup_ratio=0.03,                              # warmup ratio based on QLoRA paper
         lr_scheduler_type="constant",                     # use cosine annealing
-        report_to="wandb",                              # report metrics to wandb
-        # load_best_model_at_end=True,                  # find best model checkpoint       
+        report_to="wandb",                              # report metrics to wandb    
         hub_model_id=args.project                       # HF Hub ID for adapter
     )
 
@@ -110,7 +108,6 @@ def main():
         model=model,
         args=args,
         train_dataset=train_prompts,
-        # eval_dataset=val_prompts,
         peft_config=peft_config,
         tokenizer=tokenizer,
         max_seq_length=wandb.config.max_seq,
@@ -136,14 +133,6 @@ def main():
     del model
     del trainer
     torch.cuda.empty_cache()
-
-    # Merge adapter w/ base model and save
-    # print("Merging adapter w/ base model")
-    # merged_model = adapter.merge_and_unload()
-    # merged_model.save_pretrained(f"{output_dir}/merged_model", safe_serialization=True, max_shard_size="2GB")
-    # print(f"Model saved to: {output_dir}/merged_model")
-    # tokenizer.save_pretrained(f"{output_dir}/merged_model")
-    # print(f"Tokenizer saved to: {output_dir}/merged_model")
 
 if __name__ == '__main__':
     main()
