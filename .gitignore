@@ -2,4 +2,4 @@
 finetune/adapters
 finetune/wandb
 finetune/data
-fintune/model
+finetune/model
