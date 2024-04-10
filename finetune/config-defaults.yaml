@@ -1,0 +1,21 @@
+push_adapter_to_hub:
+  desc: Push adapter to HuggingFace Hub.
+  value: True
+num_epochs:
+  desc: Number of epochs.
+  value: 1
+lr:
+  desc: Learning Rate
+  value: 0.0002
+alpha:
+  desc: QLoRA Alpha from [8, 16, 32, 64, 128]
+  value: 16
+dropout:
+  desc: QLoRA dropout from [0.05, 0.1]
+  value: 0.1
+rank:
+  desc: QLoRA rank (r) from [8, 16, 32, 64, 128]
+  value: 16
+max_seq:
+  desc: Max Sequence Length
+  value: 2048

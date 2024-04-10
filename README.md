@@ -3,7 +3,7 @@
 ## TODO
 * Select & fine-tune opensource model for chat capabilities
     * Select commonly used chat/instruct dataset for fine-tuning
-        * https://huggingface.co/datasets/hakurei/open-instruct-v1
+        * https://huggingface.co/datasets/databricks/databricks-dolly-15k
     * Host on HuggingFace
 * Scrape FAQ, domain page, domain sublinks for raw text data
     * Also utilize commonly asked questions at the bottom of this website:
@@ -13,3 +13,7 @@
     * Frontend display
     * Look into Corrective RAG implementation
 * Model hosting & deployment
+
+## Finetuning
+
+The finetuning pipeline is available in [`./finetune`](./finetune/)
