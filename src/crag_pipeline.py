@@ -83,8 +83,8 @@ def web_search(question: str, documents: List[str], web_search_agent:WebSearchAg
     # Web search
     docs = web_search_agent.invoke({"query": question})
     web_results = "\n".join([d["content"] for d in docs])
-    combined_docs = documents.append(web_results)
-    return combined_docs
+    documents.append(web_results)
+    return documents
 
 def generate_response(question: str, documents: List[str], pipe) -> str:
     """

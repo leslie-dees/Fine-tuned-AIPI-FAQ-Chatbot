@@ -1,6 +1,8 @@
 from setup_pipeline import setup_index, setup_embeddings_model, setup_pipeline_and_tokenizer, setup_grader, setup_web_search_agent
 from crag_pipeline import transform_query, retrieve_documents, grade_documents, web_search, generate_response
 import os
+import warnings
+warnings.filterwarnings("ignore")
 
 def main():
     """
