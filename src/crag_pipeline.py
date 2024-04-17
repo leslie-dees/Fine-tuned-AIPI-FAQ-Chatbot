@@ -1,5 +1,5 @@
 from typing import List, Dict
-from src.setup_pipeline import setup_embeddings_model, setup_index  # Ensure these are imported from your setup module
+from setup_pipeline import setup_embeddings_model, setup_index  # Ensure these are imported from your setup module
 from utils import GraderLLM, WebSearchAgent  # Import GraderLLM from utils if not already defined in the same file
 
 def transform_query(question: str, pipe) -> str:
