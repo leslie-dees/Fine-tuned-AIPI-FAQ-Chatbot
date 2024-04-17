@@ -1,94 +1,32 @@
-
-
-Industry and Employer Relations | Duke AI Master of Engineering
-
-Jump to navigation
-
-Duke Engineering
-
-Pratt School of Engineering
-
-Institute for Enterprise Engineering
-
-Industry Relations
-
-Leadership
-
-News
-
-Contact
-
-Why Duke? The Duke Difference Career Services Graduate Outcomes What Tech Leaders Are Saying Degree Certificate Courses Faculty Apply
-
 Industry and Employer Relations
 
 Recruit or work with top talent skilled in solving problems using AI, machine learning and data analytics
-
 At Duke Engineering’s Master of Engineering in Artificial Intelligence program, we develop future technology leaders who can combine their domain expertise with an interdisciplinary set of skills in AI and machine learning to build and improve products and services.
-
 Building upon a strong engineering and science foundation, our students gain skills in three core competency areas:
-
-Theory and practice of AI and machine learning
-
-Business, legal and ethical context for developing new analytics products
-
-Specialized industry experience in applying AI via electives and capstone project
-
+1. Theory and practice of AI and machine learning
+2. Business, legal and ethical context for developing new analytics products
+3. Specialized industry experience in applying AI via electives and capstone project
 We welcome organizations of all industries, types and sizes to engage with our talented students for both recruiting and to support our educational mission.
 
-Contact us for more information.
-
 Ways TO PARTNER WITH DUKE
-
-Recruit our students for internships or full-time employment
-
-Engage with a student team as a sponsor of a capstone project
-
-Speak at our weekly Industry Seminar Series or a special event
-
-Join our Industrial Advisory Board
+1. Recruit our students for internships or full-time employment
+2. Engage with a student team as a sponsor of a capstone project
+3. Speak at our weekly Industry Seminar Series or a special event
+4. Join our Industrial Advisory Board
 
 Contact Us
 
 Sue Brien
-
 Assistant Director, Employer Development and Relations 919-660-1071 susan.brien@duke.edu
 
 Jon Reifschneider
-
 Director, Master of Engineering in Artificial Intelligence jon.reifschneider@duke.edu
 
-Faculty Profile »
 
 Partner with Us
-
 Engage with us to drive your organization forward
-
-Continuing Education for Working Professionals
-
-Research Partnerships
-
-Student Projects and Consulting
-
-Recruiting
-
-Industry Advisory Boards
-
-More about Duke Engineer's Institute for Enterprise Engineering »
-
-​ Join our mailing list! Sign up to receive more information about Duke Engineering graduate programs and recruitment events »
-
-Admissions
-
-Have a question about the program or admissions? Contact the Admissions & Recruiting team at pratt_masters@duke.edu .
-
-© Copyright 2011-2024 Duke University
-
-Main Menu
-
-Why Duke? The Duke Difference Career Services Graduate Outcomes What Tech Leaders Are Saying Degree Certificate Courses Faculty Apply
-
-Quick Links
-
-Industry Relations Leadership News Contact
-
+1. Continuing Education for Working Professionals
+2. Research Partnerships
+3. Student Projects and Consulting
+4. Recruiting
+5. Industry Advisory Boards

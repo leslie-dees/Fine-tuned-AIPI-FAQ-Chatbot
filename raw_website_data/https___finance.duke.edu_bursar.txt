@@ -1,21 +1,4 @@
 
-
-Student Accounts | BURSAR | Duke
-
-Skip to main content
-
-Financial Services BURSAR
-
-Log In
-
-FINANCIAL SERVICES HOME
-
-Search form
-
-Search Search Search
-
-Menu
-
 Bursar Home "toggle " + jQuery(this).prev().text() + " sub nav" Tuition & Fees
 
 Student Account Bills
@@ -110,21 +93,11 @@ Physical Address:
 
 Smith Warehouse Bay 8, Room B-103 114 South Buchanan Boulevard, Durham, NC 27701 ( Directions? )
 
-Mailing Address:
+Mailing Address: Box Number 90759, Durham, NC 27708
 
-Box Number 90759, Durham, NC 27708
-
-Office:
-
-(919) 684-4773
-
-Fax:
-
-(919) 668-2189
-
-E-mail:
-
-cashier@duke.edu
+Office: (919) 684-4773
+Fax: (919) 668-2189
+E-mail: cashier@duke.edu
 
 * Payments received after 4:00p.m. will be posted the following business day.
 
@@ -145,40 +118,4 @@ An ungated metered area open to all visitors is located on the South Side of Smi
 Transportation Options
 
 Route CSW of Duke's Parking & Transportation stops in front of the Smith Warehouse every half hour during normal business hours.
-
-Bursar Home
-
-Tuition & Fees toggle sub nav Undergraduate Tuition & Fees
-
-Explanation of Fees
-
-Summer Tuition
-
-Tuition Withdrawal Adjustments
-
-Student Account Bills
-
-Making Payments toggle sub nav How to Grant Proxy Access
-
-International Payments
-
-Student Refunds
-
-Tuition Refund Insurance
-
-1098-T Tax Reporting Information
-
-Duke Student Medical Insurance Plan
-
-Frequently Asked Questions
-
-Forms & Publications
-
-Financial Services BURSAR
-
-Financial Services Home
-
-Duke University
-
-Working@Duke
 
