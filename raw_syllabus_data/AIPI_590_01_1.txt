@@ -1,0 +1,15 @@
+AIPI 590.01: Large Language Models for Generative AI Course Syllabus
+
+Course Description
+This course focuses on the emerging field of Large Language Models (LLMs) and their usage for generation of text, images and other content.  The course will cover both the theory and practical application of LLMs, including how to adapt them for optimal usage in various domains of application.  Students will develop a solid understanding of the architectures and methods used to develop LLMs as well as best practices in working with them.  Hands-on projects will give students the opportunity to build practical skills in utilizing LLMs to solve problems, as well as an appreciation of the current challenges and limitations of LLMs.  The course will be primarily technical in nature but will also include elements of philosophy, ethics, and law as it relates to LLMs and the impacts they are creating in our world today.
+ 
+Pre-Requisites
+Students are expected to have a solid foundation in Python programming and deep learning using PyTorch.  A course in deep learning (AIPI 540) is a re-requisite or co-requisite.
+ 
+Learning Objectives
+At the end of this course, students will be able to:
+1. Explain the primary architectures and mechanisms that underly current state-of-the-art LLMs
+2. Compare and contrast LLMs relative to human intelligence
+3. Safely and reliably adapt LLMs for use in real-world domain-specific applications
+4. Assess the risks and challenges presented by the continued evolution of generative AI and contribute to the development of solutions
+

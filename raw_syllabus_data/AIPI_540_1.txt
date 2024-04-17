@@ -1,0 +1,17 @@
+AIPI 540: Deep Learning Applications Course Syllabus
+
+Instructor 
+Brinnae Bent, PhD 
+Title: Adjunct Assistant Professor 
+Affiliation: Pratt School of Engineering 
+Contact: brinnae.bent@duke.edu 
+Office: Virtual, office hours by request 
+Course Description 
+This course focuses on the primary use cases of deep learning to solve challenging problems particularly in the areas of computer vision, natural language processing and recommendation systems. Students will develop an understanding of both the mathematical theory and programmatic implementation of neural networks using Python. The course includes significant hands-on team-based project work and an emphasis on self-discovery. The semester will be split into three core modules: computer vision, NLP, and recommendation systems. Each module will include lectures, a module quiz, a team project, and review of recent research in the field. 
+Pre-Requisites 
+Students are expected to understand the main concepts of calculus, linear algebra and probability & statistics, as well as demonstrate proficiency in Python programming, including NumPy and Pandas. Course requires AIPI520 as a pre-requisite. 
+Learning Objectives 
+At the end of this course, students will be able to: 
+1. Explain the mathematical theory behind the key types of neural networks 
+2. Implement neural networks using Python to solve problems in computer vision, natural language processing, and recommendation systems 
+3. Develop end-to-end deep learning based applications incorporating best practices in ML system design

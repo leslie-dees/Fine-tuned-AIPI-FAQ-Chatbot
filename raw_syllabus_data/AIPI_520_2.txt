@@ -1,0 +1,33 @@
+AIPI 520: Modeling Process & Algorithms Course Syllabus
+
+Learning Objectives
+
+At the end of this course, students will be able to:
+
+Apply best practices to perform the end-to-end process of training machine learning models
+Explain the strengths, weaknesses, assumptions, mathematical theory and use cases for the major types of supervised and unsupervised machine learning algorithms
+Consider the implications of the bias-variance tradeoff in performing the modeling process
+Evaluate and interpret model performance
+ 
+
+Course Materials
+
+Optional textbooks:
+
+“An Introduction to Statistical Learning” by Gareth James, et al. The pdf can be downloaded for free at https://statlearning.comLinks to an external site.
+“Python Data Science Handbook: Essential Tools for Working with Data”, by Jake VanderPlas, O'Reilly Media; 1 edition (December 10, 2016), ISBN-13: 978-1491912058, full text freely available at https://jakevdp.github.io/PythonDataScienceHandbook/Links to an external site.
+ 
+
+Required free software:
+
+Assignments may be done using either Google Collaboratory in the cloud, or locally
+If you choose to work locally, you should install the necessary dependencies from the requirements.txt file in the GitHub course repoLinks to an external site.
+ 
+
+Course Grading
+
+25% Homework assignments
+20% Kaggle competition
+15% Midterm exam
+20% Final Exam
+20% Project

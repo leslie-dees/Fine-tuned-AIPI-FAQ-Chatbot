@@ -1,0 +1,30 @@
+AIPI 540: Deep Learning Applications Course Syllabus
+
+
+Course Grading
+45% Three module team projects
+30% Individual course project
+5% weekly demo videos
+5% project proposal
+20% final project deliverables
+10% Module quizzes
+10% Research paper presentation
+5% Cool Tools presentation
+
+Course Topics
+Theory of neural networks, intro to NNs in PyTorch, neural network training methods and considerations
+Intro to CNNs, transfer learning, data augmentation
+Computer vision applications Intro to Generative Models for CV
+Extracting features from text
+NLP applications Intro to LLMs
+The intersection of Generative AI + Deep Learning
+
+Module Projects 
+Each module of the course will include a team-based module project.
+
+Individual Course Project 
+In addition to the module projects, students will also complete an individual project over the semester. You may choose any of the above 6 themes for your individual project, and it may relate to any aspect of deep learning covered during the course (computer vision, NLP, recommendation systems, or tabular/structured data prediction). The project will culminate in the development of a prototype interactive web or mobile application which runs on the cloud. Beginning Week 5, each week students will submit a 1-3 minute video demo/update of their progress on the project during that week.
+
+Research Paper Presentations
+Because our field is evolving so quickly, developing an ability to read and interpret academic research papers on the latest advances in the field is critical to long-term success. As part of the course, each student will make a 5-10 minute video presentation on a relevant deep learning research paper of their choice. The objective of the presentation is to clearly convey the key novel methods or findings from the research paper in a manner that the rest of the class understands the “so what” of the paper.
+

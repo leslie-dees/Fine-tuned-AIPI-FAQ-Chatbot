@@ -1,4 +1,7 @@
-langchain_community
-pinecone-client
-sentence-transformers
-peft
+tavily-python==0.3.3
+sentence-transformers==2.7.0
+peft==0.10.0
+pinecone-client==3.2.2
+langchain_community==0.0.33
+langchain==0.1.16
+transformers==4.38.2

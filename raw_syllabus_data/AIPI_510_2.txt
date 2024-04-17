@@ -1,0 +1,23 @@
+AIPI 510: Sourcing Data for Analytics Course Syllabus
+
+Pre-Requisites
+Students are expected to understand the main concepts of calculus, linear algebra and probability & statistics, as well as possess a foundational level of proficiency in Python programming. 
+
+Learning Objectives
+Through this course, students will be expected to:
+
+Understand the different types of data and their applications in modeling
+
+Understand the various sources for data (sensors/hardware, APIs/web, etc) and be knowledgeable in methods to collect data from each source
+
+Demonstrate skills in working with data in Python, via the Numpy and Pandas libraries
+
+Develop experience in collecting and pre-processing data for use in analytics models, via hands-on programming
+
+Be able to evaluate the usefulness of datasets for analytics purposes, including measures of quality as well as quantity
+
+Demonstrate skills in analyzing data via exploratory data analysis
+
+Build an appreciation for important regulatory and ethical considerations when sourcing data for use in AI
+
+Gain experience in the end-to-end process of sourcing data for use in AI modeling – from identifying data needs, determining potential sources, assessing legal and ethical concerns, evaluating potential sources, cleaning and pre-processing data, and performing exploratory data analysis
