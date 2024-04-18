@@ -33,6 +33,7 @@ def main():
 
     print("Generated Response:")
     print(response)
+    return response
 
 if __name__ == "__main__":
     main()
