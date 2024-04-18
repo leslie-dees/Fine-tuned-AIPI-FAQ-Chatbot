@@ -1,0 +1,16 @@
+AIPI 510: Sourcing Data for Analytics Course Syllabus
+
+Course Logistics
+The weekly course meeting time will be held live each week in the classroom and via Zoom at the scheduled time. Campus students are expected to attend the live meeting time each week in order to ask questions and participate in discussion. The class sessions will also be recorded and made available for asynchronous viewing. 
+
+Homework will be assigned each week and will be distributed and collected via either Sakai or GitHub. Homework must be completed individually. You may ask questions of the instructors and TAs regarding the general concepts and tasks, either privately or duing the office hours, but we will not debug your code for you – that is a skill that is valuable to master for yourself. The objective of the homework is learning, not assessment, and therefore each assignment carries only a small weight of the total grade Give your best effort and do not panic if you are unable to complete all parts of an assignment, there are plenty of opportunities to make up the points.
+
+There will generally be a quiz each week during class time which will be completed via Sakai – the quiz is open book but the time will be limited. 
+
+Please check Sakai daily for class announcements. We will use the Ed Discussion for class discussion, which you can access through Sakai. You are welcome to post questions or comments on the lecture material or questions regarding homework, however it is a violation of the Duke community standard to post code or answers.
+
+Course Schedule
+
+
+Class Project
+The course project is an opportunity for you to put into practice many of the tools and methods you will learn this semester on a real-world data problem of interest to you. You will work in a team to source data and complete a data analysis on a problem of your choice. The project will require you to apply the skills learned in the course to identify data sources, collect and integrate data, evaluate data quality, analyze and visualize the datasets, and conduct pre-processing in preparation for modeling. You will also provide an analysis of the relevant regulatory issues related to use of the datasets proposed and identify potential ethical concerns that may arise by using the data in AI algorithms to solve the industry problem identified. The outcome of your project should be some meaningful, useful insight on the problem you have chosen. Performance will be evaluated based on a combination of technical merit in sourcing, manipulating and analyzing data as well as thoughtfulness around how to address the problem and the potential implications/considerations in doing so using the data you have selected. As the ability to communicate your process and findings is of critical importance for a data scientist or engineer, the project will culminate in a presentation back to the class on your methodology and results.

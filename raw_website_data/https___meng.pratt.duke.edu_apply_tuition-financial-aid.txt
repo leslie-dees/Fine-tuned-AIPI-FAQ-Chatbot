@@ -1,21 +1,3 @@
-
-
-Tuition and Financial Aid | Duke Master of Engineering
-
-Skip to main content
-
-Duke University
-
-Pratt School of Engineering
-
-Apply Online
-
-Visit
-
-Contact
-
-About Is Duke Right for Me? About the MEng Degree at Duke Courses and Curriculum Internship/Project Career Services & Outcomes Options for Current Duke Students Non-Degree Candidates Apply How to Apply Start Application Application Deadlines Application Requirements Tuition and Financial Aid Visit Duke Contact Admissions
-
 Tuition and Financial Aid
 
 Estimated Cost of Attendance
@@ -40,91 +22,37 @@ For one year of study
 
 Academic Year 2024-2025
 
-Fall 2024
+Fall 2024 Cost Breakdown
+Tuition: $32,990
+Health Fee: $487
+Health Insurance: $3,381
+Activity Fee: $18
+Student Services Fee: $12
+Transcript Fee: $120
+Recreation Fee: $190
+Housing: $6,008
+Board (Food): $1,880
+Books & Supplies: $322
+Local Transportation: $904
+Personal & Miscellaneous: $1,896
+Total Cost of Attendance: $48,208
 
-Spring 2025
+Spring 2025 Cost Breakdown
+Tuition: $32,990
+Health Fee: $487
+Health Insurance: $0 (covered in Fall)
+Activity Fee: $18
+Student Services Fee: $12
+Transcript Fee: $0 (paid in Fall)
+Recreation Fee: $190
+Housing: $7,510
+Board (Food): $2,350
+Books & Supplies: $322
+Local Transportation: $1,130
+Personal & Miscellaneous: $2,370
+Total Cost of Attendance: $47,379
 
-Tuition
-
-$32,990
-
-$32,990
-
-Health Fee
-
-$487
-
-$487
-
-Health Insurance
-
-$3,381
-
-$0
-
-Activity Fee
-
-$18
-
-$18
-
-Student Services Fee
-
-$12
-
-$12
-
-Transcript Fee
-
-$120
-
-$0
-
-Recreation Fee
-
-$190
-
-$190
-
-Housing
-
-$6,008
-
-$7,510
-
-Board (Food)
-
-$1,880
-
-$2,350
-
-Books & Supplies
-
-$322
-
-$322
-
-Local Transportation
-
-$904
-
-$1,130
-
-Personal & Miscellaneous
-
-$1,896
-
-$2,370
-
-Total Cost of Attendance, per semester
-
-$48,208
-
-$47,379
-
-Total Cost of Attendance, per academic year
-
-$95,587
+Total Cost of Attendance, per academic year: $95,587
 
 Notes
 
@@ -162,23 +90,10 @@ In general, completion of the 30 required credits over five semesters would res
 
 2024-2025 Estimated Online Tuition, Fees, and Expenses
 
-Tuition
-
-$98,970
-
-($19,794 per semester) *
-
-Transcript Fee
-
-$120 *
-
-Books
-
-$644 *
-
-TOTAL
-
-$99,734
+Tuition: $98,970 ($19,794 per semester) *
+Transcript Fee: $120 *
+Books: $644 *
+TOTAL: $99,734
 
 Notes
 
@@ -219,28 +134,15 @@ Gainful Employment Disclosures*
 Program Length
 
 Typically 2 years for Business Foundations for Engineers Certificate, assuming 1 course per semester
-
 Typically 15 months for AI Foundations for Product Innovation Certificate (1 course per semester, including summer)
 
 Program Costs
 
 The amounts shown below include costs for the entire program, assuming normal time to completion. There may be additional costs for living expenses. Note that this information is subject to change:
-
-Tuition
-
-$8,364 per 3-credit class, and a total of $33,456 for the certificate **
-
-Transcript Fee
-
-$120 **
-
-Books
-
-$322
-
-TOTAL
-
-$33,898
+Tuition: $8,364 per 3-credit class, and a total of $33,456 for the certificate **
+Transcript Fee: $120 **
+Books: $322
+TOTAL: $33,898
 
 Notes
 
@@ -253,19 +155,8 @@ Information about average student debt, monthly debt expense and debt interest r
 Job Placement Rates
 
 We are not currently required to calculate a job placement rate for program completers
-
-Program graduates are employed in the following fields:
-
-Information Technology
-
-Manufacturing
-
-Science, Technology, Engineering, and Mathematics
-
-Transportation, Distribution, and Logistics
-
+Program graduates are employed in the following fields: Information Technology, Manufacturing, Science, Technology, Engineering, and Mathematics, Transportation, Distribution, and Logistics
 The program does not meet any licensing requirements
-
 Additional Information: Date Created 3/15/2021
 
 *
@@ -326,41 +217,5 @@ Veterans Education Benefits
 
 Duke University offers information for veterans who are applying for U.S. Department of Veterans Affairs (VA) benefits , including the Yellow Ribbon Program. Veterans who are applying for VA benefits to participate in one of Duke’s Master of Engineering programs should list “Master of Engineering” as the title of their program on the application, rather than the specific department/program MEng in which they are participating.
 
-Apply
-
-How to Apply
-
-Start Application
-
-Application Deadlines
-
-Application Requirements
-
-Tuition and Financial Aid
-
-Visit Duke
-
-Contact Admissions
-
-Duke Graduate & Professional Student Financial Aid
-
-Apply for Aid
-
-​ Join our mailing list! Sign up to receive more information about Duke Engineering graduate programs and recruitment events »
-
-Contact Duke
-
-Email to Admissions at
-
-pratt_masters@duke.edu
-
-© Copyright 2011-2024 Duke University
-
-Main Menu
-
-About Is Duke Right for Me? About the MEng Degree at Duke Courses and Curriculum Internship/Project Career Services & Outcomes Options for Current Duke Students Non-Degree Candidates Apply How to Apply Start Application Application Deadlines Application Requirements Uploading a Transcript Grade Scale Short Answer Essays Resume Recommendations GRE Scores English Language Testing Application Fee Interview/Video Introduction Minimum Application Requirements International Applicants Deposit for Enrolling Students Submitting Final Transcripts Tuition and Financial Aid Visit Duke Contact Admissions
-
-Quick Links
-
-Apply Online Visit Contact
+Join our mailing list! Sign up to receive more information about Duke Engineering graduate programs and recruitment events.
 

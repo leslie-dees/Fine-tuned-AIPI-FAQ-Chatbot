@@ -1,0 +1,10 @@
+AIPI 540: Deep Learning Applications Course Syllabus
+
+Course Materials 
+The code for this course can be found on the course GitHub repo. Be sure to git pull each time you want to access code from it, as it will evolve throughout the course of the semester. Optional textbooks (not required): 1. “Deep Learning” by Ian Goodfellow, Yoshua Bengio, and Aaron Courville. 2016. https://www.deeplearningbook.org/
+
+Required free software: 
+2. Most or all assignments will require access to GPU. You may use either Google Colab Pro ($10/month) or work on a cloud platform of your choice where you can run notebooks (AWS, Azure or GCP). More information on how to set up for work will be provided first day of class. 
+3. Regardless of your choice of compute infrastructure, you will need access a number of Python packages. These can be installed from the requirements.txt or environment.yml file in the course repo.
+
+Class Communication Important notices from the instructor will be sent out via Canvas Announcements. You are responsible for being aware of any information the instructor posts, so I recommend checking at least every other day.

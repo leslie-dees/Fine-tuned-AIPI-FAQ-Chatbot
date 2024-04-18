@@ -1,0 +1,20 @@
+AIPI 590.01: Large Language Models for Generative AI Course Syllabus
+
+
+Topics
+
+Nature of Intelligence
+Transformer Architecture
+Foundation Models
+Working with foundation models
+Adding memory with Retrieval Augmented Geenration
+Domain adaptation
+Risk and consequences
+Regulation
+Multi-model models
+Projects
+Students will complete two projects during the course – one individual and one team project.  The projects will give students the opportunity to build hands-on skills in working with LLMs, including fine tuning and other advanced techniques for domain adaptation.
+ 
+Recent Advancements Presentations
+Because this field is evolving so quickly, developing an ability to read and interpret academic research papers on the latest advances in the field is critical to long-term success.  As part of the course, each student will conduct one 10-minute talks during the semester on recent notable advancements related to LLMs that have occurred in the past 6 months. 
+
