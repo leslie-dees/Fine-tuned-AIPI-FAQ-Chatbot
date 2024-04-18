@@ -49,7 +49,7 @@ def retrieve_documents(question: str, embeddings_model, index) -> List[str]:
         top_k=2,  # Adjust based on how many documents you want to retrieve
         include_metadata=True
     )
-    documents = [match['metadata']['text'] for match in matches['matches'] if match['metadata']['score'] >= 0.5]
+    documents = [match['metadata']['text'] for match in matches['matches'] if match['score'] >= 0.5]
     return documents
 
 def grade_documents(question: str, documents: List[str], grader: GraderLLM) -> List[str]:
