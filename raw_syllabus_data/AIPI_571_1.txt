@@ -1,0 +1,34 @@
+AIPI 571: Data Analysis at Scale in the Cloud
+
+Course Description:
+
+
+* This course is designed to give you a comprehensive view of cloud computing including Big Data, Machine Learning and Large Language Models (LLMS). A variety of learning resources will be used including interactive labs on AWS. This is a project-based course with extensive hands-on assignments and the language will be exclusively used.
+
+Learning Objectives:
+
+Upon successful completion of this course, you will be able to:
+1. Summarize the fundamentals of cloud computing
+2. Achieve AWS Solutions Architect Certification
+3. Master the Rust language for general programming
+4. Effectively utilize AI Pair Programming
+5. Evaluate the economics of cloud computing
+6. Accurately evaluate distributed computing challenges and opportunities and apply this knowledge to real-world projects.
+7. Develop non-linear life-long learning skills
+8. Build, share and present compelling portfolios using: GitLab, Hugging Face, YouTube, Linkedin and a personal portfolio website.
+9. Develop Metacognition skills (By teaching we learn)
+Core Tech Stack
+
+
+* Rust
+* AWS (AWS Learner Labs, Optional Free Tier Account)
+* GitLab
+* Slack
+* AWS Lightsail for Research (GPU)
+* CodeWhisperer
+
+Communication:
+* Slack
+* GitLab
+
+

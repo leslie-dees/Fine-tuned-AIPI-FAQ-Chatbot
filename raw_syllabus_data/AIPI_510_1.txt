@@ -1,0 +1,26 @@
+AIPI 510: Sourcing Data for Analytics Course Syllabus
+
+AIPI 510: Sourcing Data for Analytics
+Fall 2023: Course Syllabus
+Instructors
+
+Daniel Davis
+
+Title: Self-Paced Trainings Content Creator
+
+Affiliation: Center for Computational Thinking
+
+Contact: daniel.davis@duke.edu
+Office: TEC
+
+Teaching Assistant
+
+Shen Lee
+
+Contact: shenjuin.lee@duke.edu
+Office Hours
+
+Davis office hours: Wednesday 1-2pm
+
+Course Description
+In practice within industry, one of the main activities, and challenges, of implementing machine learning applications is collecting data to use in modeling. This course introduces students to both the technical and non-technical (business, regulatory, ethical) aspects of collecting, cleaning, and preparing data for use in machine learning applications. The first segment of the course will be an introduction to numerical programming focused on building skills in working with data via the Numpy and Pandas libraries, two of the most common tools used by teams working with data and modeling. Technical aspects covered will include the types of data, methods of sourcing data via the web, APIs, and from domain-specific sensors and hardware (IoT devices), an increasingly common source of analytics data in technical industries. The course also introduces methods and tools for evaluating the quality of data, performing basic exploratory data analysis, and pre-processing data for use in analytics. Non-technical aspects covered include an introduction to data privacy, GDPR, regulatory issues, bias, and industry-specific concerns regarding data usage. The course will conclude with a real-world project in which students work on a problem of their choice to extract useful insights on the problem via sourcing and analysis of multiple data sets.

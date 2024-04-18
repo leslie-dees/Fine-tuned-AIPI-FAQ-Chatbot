@@ -1,0 +1,19 @@
+AIPI 540: Optimization in Practice Course Syllabus
+
+Instructor
+Dr. Natalia Summerville
+Title: Director of Applied Data Science
+Affiliation: Memorial Sloan Kettering Cancer Center
+Contact: summerville.natalia@duke.edu
+
+Course Description
+Optimization is the ultimate skill in artificial intelligence and prescriptive analytics allowing practitioners to generate the best actionable solutions for business needs. This class will give students required skills to mathematically formulate relevant business problems as optimization models, use leading software modeling syntax and solvers to generate optimum solutions and meaningfully interpret these solutions. We will use Python/Pyomo to give student experience with proprietary and open-source optimization software. Focus will be on problem formulation and results interpretation.
+ 
+Evaluation:
+* 20% In-class quizzes
+* 40% Homework assignments
+* 40% Exam
+Topics:
+Algebra Refresher
+Formulating Optimization Problems
+Solving Optimization Problems with Python

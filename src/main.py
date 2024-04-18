@@ -23,9 +23,16 @@ def main():
     # Process flow
     transformed_question = transform_query(user_question, pipe)
     documents = retrieve_documents(transformed_question, embeddings_model, index)
-    documents_w_websearch  = web_search(transformed_question, documents, web_search_agent)
-    #relevant_documents = grade_documents(transformed_question, documents, grader)
-    response = generate_response(transformed_question, documents_w_websearch, pipe)
+    if documents:
+        # If documents retrieved with >0.5 cosine similarity
+        response = generate_response(transformed_question, documents, pipe)
+    else:
+        # If no documents retrieved, use websearch to find the answer
+        documents_w_websearch  = web_search(transformed_question, documents, web_search_agent)
+        response = generate_response(transformed_question, documents_w_websearch, pipe)
+
+    print("Generated Response:")
+    print(response)
     return response
 
 if __name__ == "__main__":

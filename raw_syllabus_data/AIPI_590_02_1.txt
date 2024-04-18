@@ -1,0 +1,28 @@
+AIPI 590.02: Applied Computer Vision Course Syllabus
+
+
+The content of the course. What does the course offer:
+? 2. Train a NN from scratch in NumPy and then in PyTorch
+? 3. Implement 2D and 3D multi-object detection and segmentation
+? 4. Generate digits and DeepFakes with autoencoders and GANs
+? 5. Manipulate images using CycleGAN, Pix2PixGAN, StyleGAN2, and SRGAN
+? 6. Combine CV with natural language processing to perform OCR, image captioning, and object detection
+
+
+Grading Policy:
+Attendance and Participation in Discussion (30%)
+Homework (30%): Every other week
+(submit within one week via email or paper)
+Project (40%): Four projects each 10%
+(submit within two weeks via email or paper, two
+individual projects and two group projects)
+
+Evaluation of the projects
+?Completeness of the work (including datasets used,
+related work and reference, qualitative and
+quantitative evaluation results.
+?Comparison, analysis of results, detailed
+visualization.
+Parameter analysis, Reproducible code.
+?Innovative ideas and the length of project reports (8-
+10) pages.

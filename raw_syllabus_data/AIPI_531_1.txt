@@ -1,0 +1,16 @@
+AIPI 531: Deep Reinforcement Learning Applications Course Syllabus
+
+Course Description 
+Deep Reinforcement Learning Applications will cover advanced sequential decision-making topics in AI and will consist of two parts focused on 1) deep reinforcement learning theory and 2) deep reinforcement learning applications. Deep reinforcement learning combines reinforcement learning and deep learning. The theory module will introduce students to major deep reinforcement learning algorithms, modeling process, and programming. The applications module will include case studies on the practical applications of deep reinforcement learning in industry. This is a project-based course with extensive Pytorch/Tensorflow hands-on exercises. Students will also have an opportunity to improve their GitHub profile by working on the projects. 
+
+The main case studies include: Product recommendations (product recs) for marketing/retail/E-commerce. 
+Pre-Requisites 
+
+Students are expected to understand the main concepts of calculus, linear algebra, and probability & statistics, as well as possess a foundational level of proficiency in Python programming, Git/GitHub, and command line operations. Students are also expected to have experience in training/testing machine learning (e.g., supervised learning and/or deep learning) models using Pytorch or Tensorflow. Knowledge of reinforcement learning is not required. We will review reinforcement learning in the course. Foundational level of proficiency in deep learning applications will be very helpful but is not required.
+
+Learning Objectives 
+1. Identify types of problems (e.g., recommendation, personalization) which deep reinforcement learning can help solve. 
+2. Explain and perform the steps of the deep reinforcement learning modeling process. 
+3. Explain the pros/cons, assumptions, mathematical intuition, and use cases for the major types of deep reinforcement learning algorithms. 
+4. Describe the distribution shift issue and online-offline tradeoff, and apply best practices in building good deep reinforcement learning models. 
+5. Evaluate and interpret deep reinforcement learning model performance.

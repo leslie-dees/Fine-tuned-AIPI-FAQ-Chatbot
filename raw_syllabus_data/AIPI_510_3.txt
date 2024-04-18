@@ -1,0 +1,41 @@
+AIPI 510: Sourcing Data for Analytics Course Syllabus
+
+Course Materials
+Course website:
+
+The lessons of this course will be hosted on Edstem (AIPI 510 – Ed Lessons (edstem.org)). This will include all lectures, quizzes, assignments and important documents.
+
+Required textbook:
+
+ “Python Data Science Handbook: Essential Tools for Working with Data”, by Jake VanderPlas, O'Reilly Media; 1 edition (December 10, 2016), ISBN-13: 978-1491912058, full text freely available at https://jakevdp.github.io/PythonDataScienceHandbook/.
+
+Required free software:
+
+Python 3.7 or greater (suggest installing Python via the Anaconda distribution (https://www.anaconda.com/distribution/)
+
+Python is today the pre-dominant language used in industry data science and ML teams
+
+The following libraries must also be installed (can be installed using pip or conda):
+
+Numpy
+
+Pandas
+
+Jupyter Notebook
+
+Matplotlib
+
+We will have a week where we collect data using sensors and a Raspberry Pi Pico. For virtual students, there is a Raspberry Pi Pico simulator that can be used in lieu of the physical boards and sensors.
+
+Raspberry Pi Pico on Wokwi - Online ESP32, STM32, Arduino Simulator
+
+This class will utilize Edstem for the distribution and collection of coding assignments.
+
+Course Grading
+30% Homework assignments (10 assignments)
+
+35% Project (10% proposal, 25% final presentation)
+
+25% Final Exam
+
+10% Quizzes

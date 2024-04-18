@@ -1,0 +1,16 @@
+AIPI 520: Modeling Process & Algorithms Course Syllabus
+
+Instructor
+
+Jon Reifschneider
+
+Contact: jon.reifschneider@duke.edu
+
+Course Description
+
+This course is an introduction to the modeling process and best practices in model creation, interpretation, validation, and selection of models for different uses.  The theory and application of the primary machine learning algorithms, both supervised and unsupervised, are introduced.  The primary focus will be on classical machine learning approaches but it will also introduce deep learning and its applications.  At the end of this course, students should have a solid understanding of the end-to-end modeling process and the different types of model algorithms along with the strengths, weaknesses, assumptions, and use cases for each type. 
+
+ 
+Pre-Requisites
+
+Students are expected to understand the main concepts of calculus, linear algebra and probability & statistics, as well as possess a foundational level of proficiency in Python programming.
