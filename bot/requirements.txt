@@ -1,0 +1,7 @@
+langchain_community
+pinecone-client
+sentence-transformers
+peft
+fastapi
+uvicorn
+python-dotenv
