@@ -26,9 +26,7 @@ def main():
     documents_w_websearch  = web_search(transformed_question, documents, web_search_agent)
     #relevant_documents = grade_documents(transformed_question, documents, grader)
     response = generate_response(transformed_question, documents_w_websearch, pipe)
-
-    print("Generated Response:")
-    print(response)
+    return response
 
 if __name__ == "__main__":
     main()
