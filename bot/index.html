@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duke Chatbot</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding-top: 40px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
+        #logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #logo-container img {
+            width: 150px;
+            height: auto;
+        }
+
+        #chat-container {
+            width: 500px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+        }
+
+        #chat-header {
+            background-color: #012169;
+            color: #fff;
+            padding: 15px;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        #chat-input-container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #promptInput {
+            padding: 10px;
+            border: 2px solid #012169;
+            border-radius: 8px;
+            font-size: 1rem;
+            height: 100px;
+            resize: none;
+        }
+
+        #send-button {
+            padding: 10px;
+            background-color: #012169;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        #send-button:hover {
+            background-color: #011e5b;
+            transform: translateY(-2px);
+        }
+
+        #send-button:active {
+            transform: translateY(1px);
+        }
+
+        #response-container {
+            padding: 15px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            text-align: left;
+            max-height: 300px;
+            background-color: #f9f9f9;
+        }
+
+        #response {
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .user-message {
+            text-align: right;
+            background-color: #dcf8c6;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .bot-message {
+            text-align: left;
+            background-color: #f0f0f0;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .lds-ellipsis {
+            display: none;
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin: 10px auto;
+        }
+        /* ... other styles for .lds-ellipsis ... */
+    </style>
+</head>
+<body>
+    <div id="logo-container">
+        <img src="./assets/Duke_logo.png" alt="Duke Logo">
+    </div>
+    <div id="chat-container">
+        <div id="chat-header">Duke Chatbot</div>
+        <div id="chat-input-container">
+            <textarea id="promptInput" placeholder="Type your prompt here..."></textarea>
+            <button onclick="sendQuery()" id="send-button">Submit</button>
+        </div>
+        <div id="response-container">
+            <div id="loading-indicator" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+            <div id="response"></div>
+        </div>
+    </div>
+
+    <script>
+        let conversationHistory = [];
+
+        function sendQuery() {
+            const userInput = document.getElementById("promptInput").value.trim();
+            if (userInput === '') {
+                alert('Please enter a message.');
+                return;
+            }
+            conversationHistory.push({ who: 'user', text: userInput });
+            const requestData = { conversation: conversationHistory };
+
+            updateUIWithMessage('user', userInput);
+
+            document.getElementById("loading-indicator").style.display = "inline-block";
+
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(requestData),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Response received:", data);
+                    conversationHistory.push({ who: 'bot', text: data.body });
+                    updateUIWithMessage('bot', data.body);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                })
+                .finally(() => {
+                    document.getElementById("loading-indicator").style.display = "none";
+                });
+        }
+
+        function updateUIWithMessage(who, text) {
+            const responseContainer = document.getElementById("response");
+            const messageElement = document.createElement('div');
+            messageElement.className = who + '-message';
+            messageElement.textContent = text;
+            responseContainer.appendChild(messageElement);
+            responseContainer.scrollTop = responseContainer.scrollHeight;
+        }
+    </script>
+</body>
+</html>
