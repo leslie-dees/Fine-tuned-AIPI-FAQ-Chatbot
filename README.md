@@ -1,5 +1,6 @@
 # Fine-tuned-AIPI-FAQ-Chatbot
-We are live [http://ec2-3-83-33-94.compute-1.amazonaws.com/ 🙌🏼](http://ec2-3-83-33-94.compute-1.amazonaws.com/)
+
+### We are live 🙌🏼 http://ec2-3-83-33-94.compute-1.amazonaws.com/
 
 ## Main Pillars
 The three main pillars of or project - 
@@ -133,10 +134,10 @@ The total cost for all experiments were ~100$ and Final model cost is ~$7:
 - Accuracy – 82.7% 
 
 ## System Architecture 
-![alt text](assets\system_architecture.png)
+![alt text](./assets/system_architecture.png)
 
 ## Inference - cRAG 
-![alt text](assets\cRAG_pipeline.png)
+![alt text](./assets/cRAG_pipeline.png)
 
 ## Evaluation
 1. Domain Questions
@@ -163,7 +164,7 @@ Duke Questions: 	2.2/5
 2. Model Fine-tuning: ~$7 total
 3. AWS Deployment: ~$700/month
 4. Pinecone DB: ~$0.45/month
--------------------------------
+_______________
 Total: ~$8455/year
 
 Contributors:
@@ -171,3 +172,4 @@ Contributors:
 @mrinoybanerjee
 @pallesaisamyukta
 @athletedecoded
+
