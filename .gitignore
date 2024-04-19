@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 *__pycache__
 finetune/adapters
 finetune/wandb
 finetune/data
 finetune/model
-=======
 .env
->>>>>>> a2891b2 (crag pipeline v1)
-=======
-.env
->>>>>>> 346840d143579b6c6277b9d38f4318acdfbe6e94
