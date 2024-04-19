@@ -1,4 +1,5 @@
 # Fine-tuned-AIPI-FAQ-Chatbot
+
 ### We are live 🙌🏼 http://ec2-3-83-33-94.compute-1.amazonaws.com/
 
 ## Main Pillars
@@ -163,7 +164,7 @@ Duke Questions: 	2.2/5
 2. Model Fine-tuning: ~$7 total
 3. AWS Deployment: ~$700/month
 4. Pinecone DB: ~$0.45/month
--------------------------------
+_______________
 Total: ~$8455/year
 
 Contributors:
@@ -171,3 +172,4 @@ Contributors:
 @mrinoybanerjee
 @pallesaisamyukta
 @athletedecoded
+
