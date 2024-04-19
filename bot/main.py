@@ -56,12 +56,16 @@ async def chat(request_data: dict):
         conversation = request_data.get("conversation")
         user_question = conversation[-1]["text"] if conversation else ""
         # Generate response
-        transformed_question = transform_query(user_question, pipe)
-        documents = retrieve_documents(transformed_question, embeddings_model, index)
-        documents_w_websearch  = web_search(transformed_question, documents, web_search_agent)
-        response = generate_response(transformed_question, documents_w_websearch, pipe)
-        # clean_response = response.replace("\n", "")
-        print(response)
+        documents = retrieve_documents(user_question, embeddings_model, index)
+        if documents:
+            # If documents retrieved with >0.5 cosine similarity
+            response = generate_response(user_question, documents, pipe)
+        else:
+            # If no documents retrieved, use websearch to find the answer
+            transformed_question = transform_query(user_question, pipe)
+            documents_w_websearch  = web_search(transformed_question, documents, web_search_agent)
+            response = generate_response(transformed_question, documents_w_websearch, pipe)
+            print(response)
         return {"body": response}
     except Exception as e:
         print(e)

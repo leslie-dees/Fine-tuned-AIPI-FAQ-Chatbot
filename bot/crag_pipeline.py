@@ -25,7 +25,7 @@ def transform_query(question: str, pipe) -> str:
     ]
 
     re_write_prompt = pipe.tokenizer.apply_chat_template(re_write_prompt, tokenize=False, add_generation_prompt=True)
-    re_write_outputs = pipe(re_write_prompt, max_new_tokens=256, temperature=0.0, top_p=0.1, eos_token_id=pipe.tokenizer.eos_token_id, pad_token_id=pipe.tokenizer.pad_token_id)
+    re_write_outputs = pipe(re_write_prompt, max_new_tokens=256, temperature=0.1, top_p=0.1, eos_token_id=pipe.tokenizer.eos_token_id, pad_token_id=pipe.tokenizer.pad_token_id)
     re_write_response = re_write_outputs[0]['generated_text'][len(re_write_prompt):].strip()
 
     return re_write_response
@@ -44,13 +44,12 @@ def retrieve_documents(question: str, embeddings_model, index) -> List[str]:
     """
     question_embeddings = embeddings_model.encode(question)
 
-    # Retrieval
     matches = index.query(
         vector=question_embeddings.tolist(),
-        top_k=3,  # Adjust based on how many documents you want to retrieve
+        top_k=2,  # Adjust based on how many documents you want to retrieve
         include_metadata=True
     )
-    documents = [match['metadata']['text'] for match in matches['matches']]
+    documents = [match['metadata']['text'] for match in matches['matches'] if match['score'] >= 0.5]
     return documents
 
 def grade_documents(question: str, documents: List[str], grader: GraderLLM) -> List[str]:
@@ -80,7 +79,7 @@ def web_search(question: str, documents: List[str], web_search_agent:WebSearchAg
     Returns:
         List[str]: A combined list of retrieved and web-searched document texts.
     """
-    # Web search
+
     docs = web_search_agent.invoke({"query": question})
     web_results = "\n".join([d["content"] for d in docs])
     documents.append(web_results)
@@ -100,13 +99,18 @@ def generate_response(question: str, documents: List[str], pipe) -> str:
     """
     formatted_documents = "\n".join(document for document in documents)
     SYSTEM_PROMPT = """
-    You are a chatbot for Duke University's Master's in Artificial Intelligence for Product Innovation (AIPI) program.
-    You must respond to the user politely, professionally, and represent the best interests of Duke University.
+    You are a helpful AI assistant. Users will ask you questions. 
+    Take a moment to think then respond with a polite and 
+    appropriate answer. You may use the provided CONTEXT if it 
+    is useful and improves your response. If you are unsure of the 
+    answer, you can respond "I don't know." or "I'm not sure.".
+
+    CONTEXT: This is in context of the Duke Artificial Intelligence for Product Innovation (AIPI) Masters's program. {context}
     """
 
     message = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": "This is the user's question: {question}, utilize these documents to assist your response: {documents}".format(question=question, documents=formatted_documents)},
+        {"role": "system", "content": SYSTEM_PROMPT.format(context = formatted_documents)},
+        {"role": "user", "content": question},
     ]
 
     prompt = pipe.tokenizer.apply_chat_template(message, tokenize=False, add_generation_prompt=True)
