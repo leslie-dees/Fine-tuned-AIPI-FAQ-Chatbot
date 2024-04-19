@@ -1,5 +1,5 @@
 # Fine-tuned-AIPI-FAQ-Chatbot
-We are live http://ec2-3-83-33-94.compute-1.amazonaws.com/ 🙌🏼
+### We are live http://ec2-3-83-33-94.compute-1.amazonaws.com/ 🙌🏼
 
 ## Main Pillars
 The three main pillars of or project - 
@@ -133,10 +133,10 @@ The total cost for all experiments were ~100$ and Final model cost is ~$7:
 - Accuracy – 82.7% 
 
 ## System Architecture 
-![alt text](assets\system_architecture.png)
+![alt text](./assets/system_architecture.png)
 
 ## Inference - cRAG 
-![alt text](assets\cRAG_pipeline.png)
+![alt text](./assets/cRAG_pipeline.png)
 
 ## Evaluation
 1. Domain Questions
